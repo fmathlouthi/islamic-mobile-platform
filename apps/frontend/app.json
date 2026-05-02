@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "Tariq ila Al-Jannah",
+    "slug": "tariq-ila-al-jannah",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tariq-jannah",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tariq.ila.aljannah",
+      "infoPlist": {
+        "CFBundleLocalizations": ["ar", "en"],
+        "UIUserInterfaceStyle": "Automatic",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to provide accurate prayer times, Qibla direction, and find nearby mosques.",
+        "NSCameraUsageDescription": "This app uses the camera for the AR Qibla finder feature."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.tariq.ila.aljannah",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      "expo-localization",
+      "expo-secure-store",
+      "expo-camera",
+      "expo-location",
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.tariq.ila.aljannah",
+          "enableGooglePay": true
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#4CAF50"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}

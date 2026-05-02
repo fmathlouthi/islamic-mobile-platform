@@ -1,0 +1,29 @@
+{
+  "name": "tariq-ila-al-jannah",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Islamic mobile app for prayer times, athkar, and Quran recitation - طريق إلى الجنة",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun x turbo dev",
+    "build": "bun x turbo build",
+    "lint": "bun x turbo lint",
+    "test": "bun x turbo test",
+    "clean": "bun x turbo clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,yaml,yml}\"",
+    "typecheck": "bun x turbo typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "prettier": "^3.2.4",
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "bun@1.1.20",
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}

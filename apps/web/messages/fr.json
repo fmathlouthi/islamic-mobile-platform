@@ -1,0 +1,41 @@
+{
+  "Index": {
+    "title": "Tariq ila Al-Jannah | Votre Compagnon Musulman Quotidien",
+    "description": "Une application islamique complète comprenant les horaires de prière, les Athkar et le Saint Coran avec un support d'IA avancé.",
+    "hero": {
+      "title": "Votre chemin vers le Paradis commence ici",
+      "subtitle": "Votre compagnon complet pour l'adoration, alliant authenticité et technologie moderne.",
+      "cta": "Télécharger l'App"
+    },
+    "features": {
+      "title": "Caractéristiques de l'App",
+      "prayer": {
+        "title": "Horaires de Prière",
+        "desc": "Alertes précises pour chaque prière en fonction de votre situation géographique."
+      },
+      "quran": {
+        "title": "Saint Coran",
+        "desc": "Lire et écouter avec interprétation et traduction en plusieurs langues."
+      },
+      "athkar": {
+        "title": "Athkar Quotidiens",
+        "desc": "Fortifiez-vous avec les rappels du matin et du soir et tout ce dont un musulman a besoin."
+      },
+      "location": {
+        "title": "Qibla & Mosquées",
+        "desc": "Recherche avancée de la Qibla en RA et découverte des mosquées à proximité."
+      }
+    },
+    "ai": {
+      "title": "IA sensible aux dialectes",
+      "subtitle": "Le premier assistant islamique propulsé par l'IA qui comprend tous les dialectes arabes.",
+      "maghrebi": "Comment faire la prière d'Istikhara? (Maghrébin)",
+      "egyptian": "Que dire en quittant la maison? (Égyptien)",
+      "gulf": "Quand commence la prière de Qiyam aujourd'hui? (Golfe)",
+      "desc": "Que vous parliez maghrébin, égyptien ou du Golfe, notre assistant intelligent vous comprend et vous répond avec précision."
+    },
+    "footer": {
+      "rights": "Tous droits réservés © 2024 Tariq ila Al-Jannah"
+    }
+  }
+}

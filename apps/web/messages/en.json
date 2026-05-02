@@ -1,0 +1,48 @@
+{
+  "Index": {
+    "title": "Tariq ila Al-Jannah | Your Daily Muslim Companion",
+    "description": "A comprehensive Islamic application featuring prayer times, Athkar, and the Holy Quran with advanced AI support.",
+    "hero": {
+      "title": "Your path to Paradise starts here",
+      "subtitle": "Your comprehensive companion for worship, combining authenticity with modern technology.",
+      "cta": "Download the App"
+    },
+    "features": {
+      "title": "App Features",
+      "prayer": {
+        "title": "Prayer Times",
+        "desc": "Accurate alerts for every prayer based on your geographical location."
+      },
+      "quran": {
+        "title": "Holy Quran",
+        "desc": "Read and listen with interpretation and translation in several languages."
+      },
+      "athkar": {
+        "title": "Daily Athkar",
+        "desc": "Fortify yourself with morning and evening remembrances and everything a Muslim needs."
+      },
+      "location": {
+        "title": "Qibla & Mosques",
+        "desc": "Advanced AR Qibla finder and nearby mosque discovery."
+      }
+    },
+    "ai": {
+      "title": "Dialect-aware AI",
+      "subtitle": "The first AI-powered Islamic assistant that understands all Arabic dialects.",
+      "maghrebi": "How do I pray Istikhara? (Maghrebi)",
+      "egyptian": "What do I say when leaving home? (Egyptian)",
+      "gulf": "When does Qiyam prayer start today? (Gulf)",
+      "desc": "Whether you speak Maghrebi, Egyptian, or Gulf, our smart assistant understands you and answers accurately."
+    },
+    "footer": {
+      "rights": "All rights reserved © 2024 Tariq ila Al-Jannah"
+    }
+  },
+  "Chat": {
+    "title": "Tariq AI Assistant",
+    "online": "Always here to help",
+    "welcome": "Welcome to Tariq AI Assistant. How can I help you today regarding our app and services?",
+    "placeholder": "Type your message...",
+    "error": "Sorry, something went wrong. Please try again."
+  }
+}
