@@ -1,0 +1,63 @@
+# ===========================================
+# Tariq ila Al-Jannah - Monorepo
+# ===========================================
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+.expo/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Logs
+logs/
+*.log
+bun-debug.log*
+
+# Database
+*.sql
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+
+# Mobile
+android/
+ios/
+*.xcworkspace
+
+# Turbo
+.turbo/
+.nNr/
+
+# TypeScript
+*.tsbuildinfo
+
+# Expo
+.expo/
